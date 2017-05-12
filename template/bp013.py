@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 
-#
+## Make a program,
+# which generates a dictionary variable aa = {"January":1, "February":2, "May":5}
+# and prints keys of aa sorted by value of the dictionary in descending order.
+# In this time, use "for" function.
+
 def main():
 	a = {"January":1,"February":2,"May":5}
 	items = a.items()
