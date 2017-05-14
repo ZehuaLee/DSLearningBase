@@ -4,7 +4,7 @@
 
 import numpy as np
 def main():
-	a = np.random.uniform(0,999,10)
-	print a
+	aa = np.random.uniform(0,999,10)
+	print aa
 if __name__ == '__main__':
 	main()
