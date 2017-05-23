@@ -5,7 +5,7 @@ import sys
 def main(para):
 	filename = para[0]
 	file = open(filename,'r')
-	pattern = re.compile(r'[a-zA-z]+://[^\s]*')
+	pattern = re.compile(r'[a-zA-Z]+://[^\s]*')
 	result = []
 	while True:
 		rl = file.readline()
