@@ -18,7 +18,6 @@ def main(para):
 
     pa_strings = re.compile(non_s)
     Stat_Val = [0, 0, 0, 0, 0, 0]
-    Categ_re_No = []
     Categ_re = []
     pa_America = re.compile(r'America$')
     pa_British = re.compile(r'^British$')
@@ -48,10 +47,6 @@ def main(para):
     result = plt.bar(index, Stat_Val)
     plt.xticks(index+0.4, Categ)
     plt.show()
-
-
-
-
 
 if __name__ == '__main__':
     main(sys.argv[1:])
