@@ -7,9 +7,9 @@ def main():
 	a = [35,41,21,14,6,2,0,2]
 	b = ['A','B','C','D','E','F','G','H']
 	index = np.arange(8)
-	#bar_width = 0.35
-	result = plt.bar(index, a)
-	plt.xticks(index, b)
+	bar_width = 0.4
+	plt.bar(index, a)
+	plt.xticks(index+bar_width, b)
 	plt.show()
 if __name__ == '__main__':
 	main()
